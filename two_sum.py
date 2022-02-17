@@ -15,11 +15,3 @@ class Solution:
                 return [seen[remaining], i]
 
             seen[value] = i
-
-
-nums = [3, 2, 4]
-target = 6
-
-amount = Solution()
-
-print(amount.twoSum(nums, target))
